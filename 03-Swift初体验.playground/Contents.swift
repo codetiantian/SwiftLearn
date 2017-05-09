@@ -103,4 +103,9 @@ let name2 = tempName1 as! String
 
 
 
+//  函数
+fileprivate func about() {
+    
+}
+
 

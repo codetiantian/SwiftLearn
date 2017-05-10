@@ -109,3 +109,8 @@ fileprivate func about() {
 }
 
 
+func about1(a : Int, b : Int) -> Int {
+    return a + b
+}
+
+print("计算的结果为：\(about1(a: 1, b: 2))")

@@ -50,6 +50,16 @@ print(averageScore)
 Student.courseCount = 2
 
 
+//  定义一个可变的字符串为可选类型
+var strName : String?
 
+strName = "cui"
+
+print(strName!)
+print(strName ?? "")
+
+if let name = strName {
+    print(name)
+}
 
 

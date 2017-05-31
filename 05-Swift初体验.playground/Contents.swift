@@ -58,6 +58,7 @@ strName = "cui"
 print(strName!)
 print(strName ?? "")
 
+//  可选绑定
 if let name = strName {
     print(name)
 }

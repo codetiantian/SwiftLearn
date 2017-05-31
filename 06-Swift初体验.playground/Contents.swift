@@ -83,7 +83,7 @@ class Person1 : NSObject {
 }
 
 let p1 = Person1.init(dict: ["name" : "why", "age" : 18, "height" : 1.88])
-print(p1.name, p1.age)
+print(p1.name, p1.age, p1.height)
 
 
 

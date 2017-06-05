@@ -64,7 +64,7 @@ name
 var str : String?
 str = "why"
 
-print(str)
+print(str ?? "")
 //  从可选类型中取值：可选类型 + ！ ---->强制解包
 print(str!)
 

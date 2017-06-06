@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    //  懒加载的学习
+    lazy var names : [String] = {
+        let names = ["1", "2", "3"]
+        return names
+    }()
+    
+    
+    
     var httpTool : HttpTool?
     
     //  在Swift中只要是对父类方法进行重写，必须在方法前加上override
